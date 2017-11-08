@@ -1,0 +1,25 @@
+#sectionThree {
+  height: 260px;
+  background: #f4214e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    padding: 16px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 16px;
+  }
+
+  button {
+    font-weight: 600;
+  }
+}
