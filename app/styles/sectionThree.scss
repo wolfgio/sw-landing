@@ -1,14 +1,26 @@
 #sectionThree {
   height: 260px;
-  background: #f4214e;
+  background: linear-gradient(to right , #f4214e, #ff734f);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    margin: 0;
+    padding: 36px;
+    color: #fafafa;
+    font-size: 36px;
+  }
   form {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 425px) {
+      width: 90%;
+      padding: 0 14px;
+    }
   }
   input {
     padding: 16px;
@@ -17,9 +29,16 @@
     width: 100%;
     max-width: 400px;
     margin-right: 16px;
+
+    @media screen and (max-width: 425px) {
+      padding: 10px;
+    }
   }
 
   button {
     font-weight: 600;
+    @media screen and (max-width: 425px) {
+      padding: 10px 16px;
+    }
   }
 }

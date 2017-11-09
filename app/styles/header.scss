@@ -23,7 +23,21 @@
             color: #f4214e;
           }
         }
+
+        @media screen and (max-width: 425px) {
+          padding: 0 4px;
+        }
+
+        @media screen and (max-width: 375px) {
+          display: none;
+        }
       }
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    > img {
+      max-width: 120px;
     }
   }
 }
